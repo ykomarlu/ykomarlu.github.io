@@ -1,0 +1,148 @@
+body {
+    background-color: red;
+    margin: 0px;
+    /* Not sure is this */
+}
+
+.contact-body {
+    background-color: coral;
+    margin: 0px;
+}
+
+.personal {
+    background-color: coral;
+}
+
+nav {
+    background-color: aquamarine;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
+    display: flex;
+    justify-content: right;
+    border-style: dotted dashed;
+}
+
+nav.Nav_link {
+    display: flex;
+    justify-content:right;
+}
+
+nav a {
+    background-color: hotpink;
+    font-size: large;
+    justify-content: right;
+}
+
+nav a:hover {
+    background-color: purple;
+    color: white;
+}
+
+nav a:active {
+    background-color: green;
+}
+
+footer {
+    background-color: blue;
+    border-style:dashed;
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+    color: gold
+}
+
+a:hover {
+    color: maroon;
+}
+
+footer p {
+    margin:auto;
+}
+
+footer a {
+    background-color: brown;
+}
+
+footer a:hover {
+    background-color: purple;
+    color: white;
+}
+
+footer a:active {
+    background-color: green;
+}
+
+.personal h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section.splash {
+    background-color: coral;
+    font-family: "Sofia", sans-serif;
+}
+
+section.splash h1 {
+    font-family: "Trirong", sans-serif;
+}
+
+section.splash #gorillaz  {
+    position: absolute;
+    left: 570px;
+    border-radius: 25px;
+}
+
+section.splash #arcane  {
+    position: absolute;
+    left: 300px;
+}
+
+hr {
+    border: dotted 6px;
+    border-bottom: none;
+    margin: 30px;
+}
+
+.hr_green {
+    border-style: groove; 
+    border-color: chartreuse;
+}
+
+div.skills {
+    padding: 30px; 
+    border-style: double outset; 
+    border-width: thick;
+}
+
+.three-col {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.language-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+}
+
+.experience-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skills-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+}
+
